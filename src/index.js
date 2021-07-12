@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer')
+const puppeteer = require('puppeteer-serverless')
 const { Cluster } = require('puppeteer-cluster')
 
 const { makeScreenshot } = require('./screenshot.js')
