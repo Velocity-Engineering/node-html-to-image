@@ -1,6 +1,6 @@
 {
   "name": "node-html-to-image",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "A Node.js library that generates images from HTML",
   "main": "src/index.js",
   "types": "types/index.d.ts",
@@ -9,7 +9,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "handlebars": "^4.5.3",
-    "puppeteer": "3.0.4",
+    "puppeteer-serverless": "2.0.0",
     "puppeteer-cluster": "^0.21.0"
   },
   "scripts": {
